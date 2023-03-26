@@ -34,8 +34,5 @@ test("Run in Android - Chrome", async () => {
         page.click(`//button[@type='submit']`)
     ]);
 
-    // // close context and device
-    await context.close();
-    await device.close();
 
 });
